@@ -1,5 +1,5 @@
 
- # count()
+# count()
 pyDev=['DevOps','AWS',1991,2020,1991,'devOps']
 print(pyDev.count("AWS"))
 print(pyDev.count("Azure"))
