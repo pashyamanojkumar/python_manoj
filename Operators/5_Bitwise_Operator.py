@@ -3,7 +3,7 @@
 & : Bitwise And
 | : Bitwise Or
 ~
-^
+^ : Bitwise Xor
 >>
 <<
 """
@@ -44,3 +44,17 @@ print(bin(a|b))
 1+0 = 1
 '''
 print(bin(a^b))
+
+a=60
+b=13
+print('a=',':',bin(a),'b=',b,':',bin(b))
+c = 0
+c = ~a
+print(c,bin(c))
+c = a << 2
+print(c,bin(c))
+c = a >> 2
+print(c,bin(c))
+
+
+
