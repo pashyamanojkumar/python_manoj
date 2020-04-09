@@ -15,3 +15,42 @@ for i in file:
         print(i,'has',len(file.readline()),'lines')
         file.close()
 '''
+'''
+import sys
+assert ("linux" in sys.platform),"This code runs on linux only"
+
+try:
+    statement # Run this code
+except:
+    statement # Execute this code when there is an exception
+'''
+'''
+import sys
+def platform_check():
+     assert ("linux" in sys.platform),"This function code runs on linux only"
+     print("Hi,Welcome to Python")
+try:
+    platform_check()
+except AssertionError as error:
+    print(error)
+    print("f platform_check function was not executed")
+else:
+    print("Executing the code")
+'''
+import sys
+def platform_check():
+     assert ("linux" in sys.platform),"This function code runs on linux only"
+     print("Hi,Welcome to Python")
+try:
+    platform_check()
+except AssertionError as error:
+    print(error)
+    print("f platform_check function was not executed")
+else:
+    print("Executing the code")
+finally:
+    print(" I am a finally Block")
+
+
+
+
