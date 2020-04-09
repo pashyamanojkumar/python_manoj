@@ -21,6 +21,7 @@ Example: var.read() or var.write()
 
 2. close() 
 '''
+"""
 file = open("abc.txt")
 print(file.read())
 file.close()
@@ -34,5 +35,6 @@ file.close()
 't' - Open in text mode.(default)
 'b' - Open in binary mode.
 '+' - Open a file for updating (reading and writing)
+"""
 
 

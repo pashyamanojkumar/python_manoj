@@ -1,5 +1,3 @@
 Welcome to Python World
-
 by
-
-manoj kumar pashya
+manoj kumar pashyaPython was created/developed/invented by Guido Van Rossum
