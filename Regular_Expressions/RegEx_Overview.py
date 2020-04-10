@@ -42,7 +42,7 @@ pattern = 'this'
 text = 'Does this text match the pattern?'
 print(text.index('this'))
 match = re.search(pattern,text)
-s = match.start()
+ts = match.start()
 e = match.end()
 print('Found "%s" in "%s" from %d to %d ("%s")' % (match.re.pattern, match.string, s, e, text[s:e]))
 print(f"Start index {s} and End index {e} in a given {text} {text[s:e]}")
