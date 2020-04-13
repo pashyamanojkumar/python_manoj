@@ -1,0 +1,20 @@
+
+Laptop:
+     Python -3.8
+     PyCharm :
+         - Coding
+             -Database
+                - db = MySQLdb.connect("hostname/ip:port","username","password","Schema")
+RDBMS : Open Source
+ - MySQL
+ - Mariadb
+
+ Cloud : AWS and Azure
+ login to AWS or Azure
+ Accessing a Database Server
+ - Managed Database
+     - Take Service and use the Service
+ - Self managed Database
+     - OS
+       -Windows or Linux or MacOS
+          - Download, Install and Configure OpenSource Database
